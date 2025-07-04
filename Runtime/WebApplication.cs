@@ -7,7 +7,7 @@ using UnityEngine.Scripting;
 
 [assembly: AlwaysLinkAssembly]
 #endif
-namespace Agava.WebUtility
+namespace BananaParty.WebUtility
 {
     public static class WebApplication
     {

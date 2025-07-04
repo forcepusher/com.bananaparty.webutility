@@ -3,7 +3,7 @@ using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-namespace Agava.WebUtility
+namespace BananaParty.WebUtility
 {
     public static class Clipboard
     {

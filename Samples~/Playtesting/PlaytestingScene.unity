@@ -285,7 +285,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1649598202}
-        m_TargetAssemblyTypeName: Agava.WebUtility.Samples.PlaytestingCanvas, Agava.WebUtility.Samples.Playtesting
+        m_TargetAssemblyTypeName: BananaParty.WebUtility.Samples.PlaytestingCanvas, BananaParty.WebUtility.Samples.Playtesting
         m_MethodName: OnPasteFromClipboardButtonClick
         m_Mode: 1
         m_Arguments:
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1649598202}
-        m_TargetAssemblyTypeName: Agava.WebUtility.Samples.PlaytestingCanvas, Agava.WebUtility.Samples.Playtesting
+        m_TargetAssemblyTypeName: BananaParty.WebUtility.Samples.PlaytestingCanvas, BananaParty.WebUtility.Samples.Playtesting
         m_MethodName: OnCopyToClipboardButtonClick
         m_Mode: 1
         m_Arguments:

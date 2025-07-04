@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 #endif
 
-namespace Agava.WebUtility
+namespace BananaParty.WebUtility
 {
     public static class AdBlock
     {

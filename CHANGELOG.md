@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).  
   
+## [4.0.0] - 2025-07-05  
+### Changed  
+- Changed the package name to a personal brand, since the origin company was dissolved.  
+- Changed the license to a personal brand as well. The license is still MIT.  
+  
 ## [3.3.1] - 2025-06-02  
 ### Fixed  
 - Improved mobile device detection since navigator.userAgent is no longer reliable on devices like an iPad or AuroraOS.  
@@ -37,11 +42,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `WebApplication.InBackgroundChange` to `WebApplication.InBackgroundChangeEvent`.  
 - Recommended to use both `AudioListener.pause` and `AudioListener.volume` muting methods in `PlaytestingCanvas`.  
   
-[3.3.1] https://github.com/forcepusher/com.agava.webutility/compare/3.3.0...3.3.1  
-[3.3.0] https://github.com/forcepusher/com.agava.webutility/compare/3.2.0...3.3.0  
-[3.2.0] https://github.com/forcepusher/com.agava.webutility/compare/3.1.0...3.2.0  
-[3.1.0] https://github.com/forcepusher/com.agava.webutility/compare/3.0.0...3.1.0  
-[3.0.0] https://github.com/forcepusher/com.agava.webutility/compare/2.2.0...3.0.0  
-[2.2.0] https://github.com/forcepusher/com.agava.webutility/compare/2.1.0...2.2.0  
-[2.1.0] https://github.com/forcepusher/com.agava.webutility/compare/2.0.0...2.1.0  
-[2.0.0] https://github.com/forcepusher/com.agava.webutility/compare/1.0.0...2.0.0
+[4.0.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.3.1...4.0.0  
+[3.3.1] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.3.0...3.3.1  
+[3.3.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.2.0...3.3.0  
+[3.2.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.1.0...3.2.0  
+[3.1.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.0.0...3.1.0  
+[3.0.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/2.2.0...3.0.0  
+[2.2.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/2.1.0...2.2.0  
+[2.1.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/2.0.0...2.1.0  
+[2.0.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/1.0.0...2.0.0

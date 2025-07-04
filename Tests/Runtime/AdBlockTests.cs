@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Agava.WebUtility.Tests
+namespace BananaParty.WebUtility.Tests
 {
     public class AdBlockTests
     {
