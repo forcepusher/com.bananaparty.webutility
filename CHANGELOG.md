@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).  
   
+## [4.0.1] - 2026-03-20  
+### Fixed  
+- Fixed mobile device detection. It was accidentally relying on a backwards-compatibility feature that was removed from browsers.  
+  
 ## [4.0.0] - 2025-07-05  
 ### Changed  
 - Changed the package name to a personal brand, since the origin company was dissolved.  
@@ -42,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `WebApplication.InBackgroundChange` to `WebApplication.InBackgroundChangeEvent`.  
 - Recommended to use both `AudioListener.pause` and `AudioListener.volume` muting methods in `PlaytestingCanvas`.  
   
+[4.0.1] https://github.com/forcepusher/com.bananaparty.webutility/compare/4.0.0...4.0.1  
 [4.0.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.3.1...4.0.0  
 [3.3.1] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.3.0...3.3.1  
 [3.3.0] https://github.com/forcepusher/com.bananaparty.webutility/compare/3.2.0...3.3.0  
