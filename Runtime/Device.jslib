@@ -6,9 +6,11 @@ const deviceLibrary = {
     isMobileDevice: undefined,
 
     getIsMobile: function () {
-      if (device.isMobileDevice === undefined)
-        device.isMobileDevice = navigator.maxTouchPoints > 0 && !!document.createElement('canvas').getContext('webgl').getExtension('WEBGL_compressed_texture_etc');
-
+      if (device.isMobileDevice === undefined) {
+        const webglContext = document.createElement('canvas').getContext('webgl');
+        device.isMobileDevice = navigator.maxTouchPoints > 0 && !!(webglContext && webglContext.getExtension('WEBGL_compressed_texture_etc'));
+      }
+      
       return device.isMobileDevice;
     },
   },
